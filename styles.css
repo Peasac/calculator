@@ -1,0 +1,62 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    min-height: 100vh;
+}
+.Header {
+    font-size: 50px;
+    margin-top: 0px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;  
+}
+.container {
+    width: 532px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    padding: 20px 0px 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 503px;
+    justify-content: center;
+    gap:7px;
+}
+.screen {
+    height: 100px;
+    background-color: olive;
+    width: 490px;   
+    font: "Orbitron" sans-serif;
+    margin-top: 20px;
+    font-size: 100px;
+    text-align: right;
+}
+button {
+    width: 120px;
+    height: 100px;
+    font-size: 50px;
+    background-color: darkgray;
+    color: white;
+    border-radius: 20px;
+    
+}
+.clear {
+    width: 181.5px
+}
+.delete {
+    width: 181.5px;
+}
+.divide {
+    width: 120px;
+}
+.zero {
+    width: 243px;
+}
